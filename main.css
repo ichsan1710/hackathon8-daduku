@@ -1,0 +1,155 @@
+body {
+    background-image: url(asset/2275416.jpg);
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+.page-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 56px;
+}
+
+.title-heading {
+    font-size: 44px;
+    font-weight: 700;
+    width: 700px;
+    text-align: center;
+}
+
+.card {
+    width: 400px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.card h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin: 0;
+}
+
+.card p {
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 24px;
+    color: white
+}
+
+.card-body {
+    padding: 24px;
+}
+
+.card-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.card-head img {
+    height: 450px;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 56px;
+    margin-bottom: 56px;
+}
+
+.cards-container .card {
+    margin: 32px 16px;
+}
+
+.btn-border {
+    border: 1px solid white;
+    background-color: transparent;
+    margin-left: 5px;
+    color: white;
+    padding: 13px 45px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+}
+
+.btn-border:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 20px 200px
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.nav-container img {
+    width: 50px;
+    height: 50px;
+    margin-right: -10px;
+}
+
+#saldo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btn-saldo {
+    margin-left: 12px;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: transparent;
+    margin-left: 24px;
+    margin-right: 10px;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+}
+
+.btn-logout {
+    margin-left: 12px;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: transparent;
+    margin-left: 5px;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+}
+
+.btn-saldo:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.btn-logout:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}

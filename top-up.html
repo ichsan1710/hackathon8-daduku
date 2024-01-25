@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="top-up.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1 class="header-title text-center">Payment Gateway</h1>
+        <h3 class="co-title text-center">Your Happiness is Our Priority</h3>
+    </div>
+
+    <!-- Container -->
+    <div class="container">
+        <div class="wrapper">
+            <div class="card text-center">
+                <h2 class="title">Choose Your Payment Methods</h2>
+                <img src="asset/payment.jpg" alt="metode">
+                <!-- <label for="username">Username :</label>
+                <input type="text" name="username" id="username"> <br>
+                <label for="">Total :</label>
+                <input type="number" name="username" id="username"> <br>
+                <button>Submit</button>
+                <button>Reset</button> -->
+                <p class="paragraf">We are always willing to provide the best for you.</p> <br>
+                <ul>
+                    <li class="text">&#x2713 Sign up for an annual subscription and get free saldo!</li>
+                    <li class="text">&#x2713 Cancel anytime before the trial ends to avoid getting billed</li>
+                    <li class="text">&#x2713 Fast transaction respond</li>
+                </ul>
+                <div class="jumlah-topup">
+                    <h3 class="text-topup">Top-up Amount :</h3>
+                    <input type="number" placeholder="Rp 0,00" id="jumlah" required>
+                </div>
+                <div>
+                    <h3 class="payment-topup">Payment Method :</h3>
+                    <form>
+                        <select id="payment">
+                            <option>Visa</option>
+                            <option>Mastercard</option>
+                            <option>Bitcoin</option>
+                        </select>
+                    </form>
+                </div>
+                <button class="btn" onclick="handleTopUp()"><p class="btn-text">Top-up</p></button>
+                <button class="btn" onclick="handleToMain()"><p class="btn-text">Back to main page</p></button>
+            </div>
+        </div>
+    </div>
+    <script src="top-up.js"></script>
+</body>
+</html>

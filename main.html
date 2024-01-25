@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- Main Function -->
+    <section id="main-section">
+        <nav class="nav-container">
+            <div class="flex-container">
+                <img src="asset/whotnow-coin-unscreen.gif" alt="coin">
+                <p id="saldo">20,000</p>
+                <button class="btn-saldo" onclick="handlingPageTopUp()">Top Up</button>
+                <button class="btn-logout" onclick="handleLogout()">Logout</button>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="page-title">
+                <h1 class="title-heading">Let's roll the dice!</h1>
+            </div>
+            
+            <div class="cards-container" style="margin-top: -120px"> 
+                <div class="card">
+                    <div class="card-head">
+                        <img src="asset/dice-unscreen.gif">
+                    </div>
+                    <div class="card-body">
+                        <h3>Choose your luck! Odd or Even?</h3>
+                        <button class="btn-border" onclick="handlingGanjil()">Odd</button>
+                        <button class="btn-border" onclick="handlingGenap()">Even</button>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <script src="main.js" />
+</body>
+</html>
