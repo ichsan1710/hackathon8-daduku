@@ -84,6 +84,7 @@ function handleRegister() {
 }
 
 function showPage(page) {
+    console.log(page, "===")
   for (let i = 0; i < arrPage.length; i++) {
     let perPage = arrPage[i];
     if (perPage === page) {
