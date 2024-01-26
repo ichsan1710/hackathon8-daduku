@@ -114,4 +114,3 @@ function load(){
   document.getElementById("saldo").innerText = saldo
 }
 load()
-showPage("login-section")
